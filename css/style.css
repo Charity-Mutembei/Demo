@@ -73,10 +73,13 @@ a.card-link {
   color: yellowgreen;
 }
 .btn.btn-secondary {
-  background-color: yellow;
-  color: black;
+  background-color: black;
+  color: wheat;
 }
 .form-control.me-auto {
   background-color: black;
-  color: yellowgreen;
+  color: wheat;
+}
+.last {
+  background-color: darkolivegreen;
 }
