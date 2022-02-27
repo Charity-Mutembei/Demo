@@ -13,31 +13,33 @@
 </head>
 <body>
   <!--Navigation Bar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#">Mutembei Charity</a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Biography</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Contacts</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Find</button>
-        </form>
+  <div class="background">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Contacts</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Find</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
   <!--Section 1-->
   <section class="bg-dark text-light text-center">
     <div class="beauty d-sm-flex align-items-center justify-contents-between">
@@ -58,13 +60,13 @@
     </div>  
   </section>
   <!--Section 2-->
-  <section class="bg-dark text-light text-center p-5">
+  <section class="bg-dark text-light text-center">
     <div class="beauty d-sm-flex align-items-center justify-contents-between">
         <!--sub-section b-->
         <div class="card" style="width: 100rem;">
           <img src="IMAGES/roomdesign.jpg" class="card-img-top" alt="design">
-          <div class="card bg-ligth text-dark">
-            <div class="card-body" style="height: fit-content;>
+          <div class="card d-sm-flex bg-dark text-light">
+            <div class="card-body">
               <h1 class="card-title">Projects</h1>
               <!-- <h1 class="card-subtitle mb-2 text-muted">About Me</h1> -->
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -78,7 +80,7 @@
           </div>
         </div>
         <!--Subsection C-->
-        <div class="card" style="width: 60rem;">
+        <div class="card" style="height: 0rem;">
           <div class="card bg-dark text-light">
             <div class="card-body">
               <h1 class="card-title">Contacts</h1>
@@ -95,27 +97,6 @@
     </div>     
   </section>
   <!--Reach out-->
-  <section class="bg-dark text-light text-center">
-      <div class="contact p-5 align-items-center justify-contents-between">
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Message</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Confirm</label>
-          </div>
-          <div class="button d-grid p-5 gap-2">
-            <button type="button" class="btn btn-danger">Send</button>
-          </div>
-        </form>
-      </div>
   </section>
 
   
