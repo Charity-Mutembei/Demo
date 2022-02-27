@@ -71,7 +71,7 @@
     color: yellow;
   }
 a.card-link {
-  color: yellowgreen;
+  color: maroon;
 }
 .btn.btn-secondary {
   background-color: black;
@@ -82,5 +82,5 @@ a.card-link {
   color: wheat;
 }
 .last {
-  background-color: darkolivegreen;
+  background-color: maroon;
 }
