@@ -60,14 +60,19 @@
   } */
   .green {
     opacity: 100%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     text-align: justify;
   }
   .yellow {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
     text-align: justify;
     text-align: center;
+    opacity: 100%;
+    font-weight: bolder;
+    color: bisque;
+    /* background-image: url(../IMAGES/_\ \(1\).jpeg); */
+    background-repeat: no-repeat;
+    background-size: contain;
   }
   a.fantasy.card-link {
     color: maroon;
@@ -87,8 +92,7 @@ a.card-link {
 .last {
   background-color: black;
 }
-#photo3 {
-  height: 100vh;
-  width: 100%;
-  
+.beauty.d-sm-flex.align-items-center.justify-contents-between {
+  background-image: url(../IMAGES/_\ \(1\).jpeg);
+  opacity: 25;
 }
