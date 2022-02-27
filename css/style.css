@@ -59,7 +59,9 @@
     margin: 0%;
   } */
   .green {
-    opacity: 60%;
+    opacity: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
   }
   .yellow {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -68,7 +70,8 @@
     text-align: center;
   }
   a.fantasy.card-link {
-    color: yellow;
+    color: maroon;
+    text-align: center;
   }
 a.card-link {
   color: maroon;
@@ -83,4 +86,9 @@ a.card-link {
 }
 .last {
   background-color: black;
+}
+#photo3 {
+  height: 100vh;
+  width: 100%;
+  
 }
