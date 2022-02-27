@@ -14,14 +14,16 @@
   .about-section {
       /* height: 100vh;
       width: 100%; */
-      background-color: transparent;
+      background-color: black;
       background-size: cover;
-      background-position: left;
+      background-position: center;
       text-align: center;
+      font-weight: bold;
       margin-left: auto; 
       display: flex;
       justify-content: center;
-      align-items: center;    
+      align-items: center;
+      opacity: 80%;
   }
   /* #design {
       background-image: url(../IMAGES/roomdesign.jpg);
@@ -54,3 +56,18 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .green {
+    opacity: 60%;
+  }
+  .yellow {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: justify;
+    text-align: center;
+  }
+  a.fantasy.card-link {
+    color: yellow;
+  }
+a.card-link {
+  color: yellowgreen;
+}
