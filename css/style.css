@@ -40,3 +40,13 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .habakuk {
+    float: left;
+    padding-top: 20%;
+    opacity: 60%;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+.about-section {
+  background-color: transparent;
+}
