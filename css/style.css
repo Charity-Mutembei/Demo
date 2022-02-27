@@ -6,7 +6,7 @@
   #photo {
     height: 100vh;
     width: 100%;
-    background-image: url(../IMAGES/LOI-LOI.jpeg);
+    background-image: url(../IMAGES/_\ \(1\).jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -37,13 +37,13 @@
     font-size: 50px;
   }
   .background { 
-    background-image:url(../IMAGES/roomdesign.jpg);
+    background-image:url(../IMAGES/_\ \(1\).jpeg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
   }
   .habakuk {
-    float: left;
+    float: right;
     padding-top: 20%;
     opacity: 60%;
     font-weight: bold;
@@ -82,5 +82,5 @@ a.card-link {
   color: wheat;
 }
 .last {
-  background-color: maroon;
+  background-color: black;
 }
