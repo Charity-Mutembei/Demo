@@ -55,6 +55,7 @@
     background-image: url(../IMAGES/_Hide\ &\ Seek_\ -\ Paper\ craft\ architecture\ photography.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: right;
   }
   .green {
     opacity: 60%;
