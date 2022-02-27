@@ -47,6 +47,10 @@
     font-weight: bold;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
   }
-.about-section {
-  background-color: transparent;
-}
+  #photo2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMAGES/_Hide\ &\ Seek_\ -\ Paper\ craft\ architecture\ photography.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
