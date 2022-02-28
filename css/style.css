@@ -6,7 +6,7 @@
   #photo {
     height: 100vh;
     width: 100%;
-    background-image: url(../IMAGES/_\ \(1\).jpeg);
+    background-image: url(../IMAGES/LOI-LOI.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -37,7 +37,7 @@
     font-size: 50px;
   }
   .background { 
-    background-image:url(../IMAGES/_\ \(1\).jpeg);
+    background-image:url(../IMAGES/roomdesign.jpg);
     height: 100vh; 
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,7 +92,9 @@ a.card-link {
 .last {
   background-color: black;
 }
-.beauty.d-sm-flex.align-items-center.justify-contents-between {
+/* .beauty.d-sm-flex.align-items-center.justify-contents-between {
   background-image: url(../IMAGES/_\ \(1\).jpeg);
   opacity: 25;
-}
+  background-repeat: no-repeat;
+  background-position: bottom;
+} */
